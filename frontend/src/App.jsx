@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import KitchenView from './components/KitchenView';
-import CustomerView from './components/CustomerView';
-import CounterView from './components/CounterView';
-import OwnerView from './components/OwnerView';
+import { useEffect, useState } from 'react';
 import AccountantView from './components/AccountantView';
+import CounterView from './components/CounterView';
+import CustomerView from './components/CustomerView';
 import ExecutiveView from './components/ExecutiveView';
+import KitchenView from './components/KitchenView';
+import OwnerView from './components/OwnerView';
 
 const PALETTE = {
   coral: '#FF724C',
